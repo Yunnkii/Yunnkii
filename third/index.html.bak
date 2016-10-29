@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+	 <title>主页</title>
+	 <link  rel= "stylesheet" href="css/style.css">
+	 <script  type="text/javascript"  src="js/style.js"></script>
+   </head>
+   <body>
+     <div  class="main">
+	     <div  class="comwidth">
+		     <header>
+                 <div  class="title">
+				    <div  class="word">
+					  <span>Enigmatico</span>
+					</div>
+					<div  class="btn">
+					   <div class="in">Sign in</div>
+					   <div class="up">Sign up</div>
+					</div>
+					<div  class="link">
+					   <span>Follow us :</span>
+					   <ul>
+					      <li>
+						  <a href=""><img  src="images/facebook.png"></a>
+						  </li>
+						  <li>
+						  <a href=""><img  src="images/sina.png"></a>
+						  </li>
+						  <li>
+						  <a  href=""><img  src="images/twitter.png"></a>
+						  </li>
+						  <li>
+						  <a href=""><img  src="images/wifi.png">
+						  </a></li>
+					   </ul>
+					</div>
+				 </div>
+                 <nav>
+				    <ul>
+					   <li>
+					     <a href="">Home pages</a>
+						 
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+				       </li>
+					   <li>
+					      <a href="">About us</a>
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+					   </li>
+					   <li>
+					     <a href="">Photo gallery</a>
+						 
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+					   </li>
+					   <li>
+					     <a href="">Blog</a>
+						 
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+					   </li>
+					   <li>
+					      <a href="">E-shop</a>
+	
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+					   </li>
+					   <li>
+					       <a href="">Contact us</a>
+						   
+					      <ul>
+						     <li>Photo gallery</li>
+					         <li>Blog</li>
+					         <li>E-shop</li>
+					         <li>Contact us</li>
+						  </ul>
+					   </li>
+					</ul>
+				 </nav>
+			 </header>
+			 <div id="container">
+			   <div   id="list" style="left: -960px;">
+			    <img  src="images/banner.png" alt="图片">
+				<img  src="images/banner.png" alt="图片">
+				<img  src="images/banner.png" alt="图片">
+				<img  src="images/banner.png" alt="图片">
+				<img  src="images/banner.png" alt="图片">
+			   </div>
+			   <div  id="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+		       </div>
+				<span id="prev"  class="arrow">&lt;</span>
+				<span id="next"  class="arrow">&gt;</span>
+			 </div>
+			 <footer> 
+			    <p>
+			    we are photoshoot agency interger we are photoshoot agency interger we are photoshoot agency interger we are photoshoot agency interger we are photoshoot agency interger we are.
+			    </p>
+				<button>More information<span>&gt;</span></button>
+			 </footer>
+		 </div>
+	 </div>
+   </body>
+</html>

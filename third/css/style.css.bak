@@ -1,0 +1,229 @@
+*{
+	  margin:0px;
+	  padding:0px;
+	  font-family:微软雅黑;
+	  }
+
+	  a{
+	  text-decoration:none;
+	  color:#fff;
+	  }
+	  ul{
+	  list-style:none;
+	  margin:0px;
+	  padding:0px;
+	  }
+	  .main{
+	  background:url('images/bg.png') no-repeat;
+	  }
+	  .comwidth{
+	  margin:0 auto;
+	  width:960px;
+	  }
+      header {
+	  height:128px;
+	  }
+      .title{
+	  height:90px;
+	  }
+	  .title .word{
+	  margin:20px 92px 0px 13px;
+	  float:left;
+	  font-size:34px;
+	  }
+	  
+	  .title .btn {
+	  width:100px;
+	  float:left;
+	  margin:12px 0px 0px 0px;
+	  padding:16px 0px 0px 10px;
+	  }
+       .title .btn .in{
+	   cursor:pointer;
+	   border-radius:4px;
+	   text-align:center;
+	   line-height:35px;
+	   width:84px;
+	   color:#fff;
+	   height:35px;
+	   float:left;
+	   margin:0px 40px 0px 0px;
+	   background:#000;
+	   }
+       .title .btn .up{
+	   cursor:pointer;
+	   border-radius:4px;
+	   text-align:center;
+	   line-height:35px;
+	   color:#fff;
+	   float:left;
+	   width:84px;
+	   height:35px;
+	   background:#8f3232;
+
+	   }
+      .title .btn,.title .link{
+	  float:left;
+	  width:250px;
+	  height:60px;
+	  margin-left:48px;
+	  }
+	  .title .link{
+	 
+	  margin:14px 0px 0px 50px;
+	  }
+	  .title .link span{
+	  display:block;
+	  position:relative;
+	  top:20px;
+	  font-size:18px;
+	  }
+      .title .link ul{
+	  position:relative;
+      left:50px;
+	  top:-7px;
+	  float:right;
+	  width:200px;
+	  height:60px;
+	  margin:0px 0px 0px 0px;
+	  }
+      .title .link ul li{
+	  float:left;
+	  margin-right:3px;
+	  }
+	  nav{
+	  height:44px;
+	  background:#BFBFBF;
+	  }
+	  nav ul{
+	  float:left;
+	  }
+	  nav ul li{
+	  position:relative;
+	  background:#fff;
+	  float:left;
+	  margin:6px 7px 7px 22px;
+	  width:124px;
+	  line-height:28px;
+	  text-align:center;
+	  background:#000;
+	  color:#fff;
+	  text-shadow: 0px 0px 5px #fff;
+	  border-radius:5px;
+	  cursor:pointer;
+	  transition:all  linear  .9s  1s;
+	  }
+	  nav ul li:hover ul{
+	  display:block;
+	  }
+	  nav ul li ul{
+	  margin-top:2px;
+	  display:none;
+	  position:absolute;
+      z-index:2;
+	  }
+	  nav ul li ul li{
+	  margin-top:0px;
+	  padding-top:0px;
+	  margin-left:0px;
+	  }
+	 #container{
+	  position:relative;
+	  width:960px;
+	  height:400px;
+	  overflow:hidden;
+	  }
+	  #list{
+	  width:5000px;
+	  height:400px;
+	  position:absolute;
+	  }
+	  #list image{
+	  float:left;
+	  }
+	  #buttons{
+		width:80px;
+		height:30px;
+		position:absolute;
+		top:360px;
+		left:398px;
+		line-height:30px;
+		z-index:3;
+		}
+		#buttons span{
+		display:block;
+		background:#333;
+		width:10px;
+		height:10px;
+		border:1px solid #fff;
+		border-radius:50px;
+		cursor:pointer;
+		margin:10px 3px 0px 5px;
+		float:left;
+		}
+		#buttons  .on{
+		background:orangered;
+		}
+
+	  .arrow{
+	  z-index:3;
+	  position:absolute;
+	  top:180px;
+	  width:60px;
+	  height:60px;
+	  text-align:center;
+	  line-height:60px;
+	  font-size:50px;
+	  background:#000;
+	  border-radius:34px;
+	  opacity:0.8;
+	  color:#fff;
+	  cursor:pointer;
+	  }
+      .arrow:hover{
+	  opacity:0.6;
+	  }
+	  #prev{
+	  left:20px;
+	  }
+	  #next{
+	  right:20px;
+	  }
+	  footer{
+	   background:#8d3030;
+	   margin-top:10px;
+	   border-radius:5px;
+	   height:130px;
+	  }
+      footer  p{
+	  font-style:italic;
+	  width:700px;
+	  padding:20px 0px 10px 40px;
+	  color:#f3ebeb;
+	  word-wrap:break-word;
+	  line-height:30px;
+	  }
+      footer  button{
+	  outline:none;
+	  width:200px;
+	  height:40px;
+      position:relative;
+	  left:758px;
+	  top:-69px;
+	  background:#490505;
+	  border:none;
+	  border-radius:5px;
+	  color:#f3ebeb;
+	  font-size:20px;
+	  cursor:pointer;
+	  text-align:center;
+	  line-height:40px;
+	  }
+	  footer  button:hover,footer  button:active{
+	  box-shadow:0px 0px 3px #490505;
+	  }
+	  footer span{
+	  font-size:24px;
+	  display:inline-block;
+	  margin-left:5px;
+	  }
