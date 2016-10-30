@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta  charset = "utf-8">
+		<title>网页</title>
+		<style type = "text/css">
+		    *{	
+			margin:0px;
+			padding:0px;
+			}
+			.container{
+			position:relative;
+			margin:200px  auto;
+			width:500px;
+			height:250px;
+			background:rgb(205,205,205);
+			}
+			.ltop{
+			width:50px;
+			height:50px;
+			border-radius:0 0 50px 0;
+			background:rgb(255,205,0);
+			}
+			.rbot{
+			width:50px;
+			height:50px;
+			border-radius:50px 0 0 0;
+			background:rgb(255,205,0);
+			position:absolute;
+			bottom:0;
+			right:0;
+			}
+		</style>
+	</head>
+	<body>
+	  <div  class = "container">
+	    <div class = "ltop">
+		</div>
+		<div  class = "rbot">
+		</div>
+	  </div>
+	</body>
+</html>
