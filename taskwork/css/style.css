@@ -1,0 +1,208 @@
+html,body,ul,li,p,i{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style-type:none;
+}
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1477806688043'); /* IE9*/
+  src: url('iconfont.eot?t=1477806688043#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1477806688043') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1477806688043') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1477806688043#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  text-align:center;
+  font-family:"iconfont" ;
+  font-size:24px;
+  font-style:normal;
+  line-height:140%;
+  color:rgba(176,189,202,1);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.comwidth{
+	width:1000px;
+	margin:0 auto;
+}
+@media  screen and (max-width:900px;){
+	.comwidth{
+		width:900px;
+	}
+}
+@media screen and (max-width:800px;){
+	.comwidth{
+		width:800px;
+	}
+}
+@media screen and (max-width:700px;){
+	.comwidth{
+		width:700px;
+	}
+}
+@media screen and (max-width:600px;){
+	.comwidth{
+		width:600px;
+	}
+}
+
+.header{
+	background:rgba(18,56,95,1);
+	height:50px;
+}
+.header .font{
+	float:left;
+}
+.header .font span{
+	display:inline-block;
+}
+.header .font span:nth-child(1){
+	font-size:40px;
+	font-family:"Microsoft Yahei";
+	padding-left:10px;
+	color:#fff;
+}
+.header .font span:nth-child(2){
+	font-size:20px;
+	font-family:幼圆;
+	color:#6d7c91;
+	line-height:100%;
+	text-shadow:1px  1px 0px #fff;
+}
+
+.header .info{
+	float:right;
+}
+.header .info .name{
+	float:right;
+	padding-left:24px;
+	padding-right:10px;
+	line-height:180%;
+	color:rgba(213,217,222,1);
+	font-size:14px;
+}
+.container{
+	font-family:"微软雅黑";
+}
+ .nav{
+ 	background:rgba(53,90,134,1);
+	width:160px;
+}
+.nav>ul>li{
+	border-bottom:1px solid rgba(134,150,173,1);
+	padding:0px 0px 10px 4px;
+}
+.nav>ul>li>ul li:hover{
+	background:rgba(82,128,155,1);
+}
+.nav ul li{
+	
+	line-height:28px;
+	color:rgba(255,255,255,1);
+	font-size:14px;
+	cursor:pointer;
+	padding-left:4px;
+
+}
+.nav ul li p{
+	padding-left:4px;
+}
+.nav ul li ul {
+	display:none;
+}
+.nav ul li ul li{
+	padding-left:30px;
+}
+.main{
+	color:rgba(102,102,102,1);
+	width:820px;
+	position:absolute;
+	top:50px;
+	margin:0px 0px 0px 180px ;
+}
+
+.main .headerbar{
+	background:rgba(219,218,214,1);
+	font-size:14px;
+	color:rgba(51,51,51,1);
+	
+	line-height:33px;
+}
+
+.main .headerbar .iconfont{
+	color:#333;
+}
+.main .headerbar span{
+	display:inline-block;
+}
+.include img{
+	float:left;
+}
+hr{
+	display:inline-block;
+	width:730px;
+	height:0px;
+	position:absolute;
+	top:3px;
+	left:90px;
+}
+.include{
+	height:110px;
+    position:relative;
+}
+.carve,.carving,.uncarve{
+	position:relative;
+}
+.carve .include .ul{
+	background:rgba(244,244,243,1);
+	float:left;
+	width:625px;
+	height:46px;
+}
+.carve .include .ul>div{
+	float:left;
+	height:44px;
+	text-align:center;
+	line-height:40px;
+}
+.carve .include .up{
+	font-size:14px;
+}
+.carve .include .down{
+	font-size:18px;
+	color:#000;
+}
+.carved .include .ul>div,.uncarve .include .ul>div{
+
+	text-align:center;
+	
+}
+.carving .include .ul>div{ 
+  
+   text-align:center;
+   
+}
+.six .ul>div{
+	width:102px;
+}
+.four .ul>div{
+	width:154px;
+}
+.include .status:hover{
+	background:rgba(209,186,116,1);
+}
+.include .status{
+	text-align:center;
+	line-height:90px;
+	position:absolute;
+	top:0;
+	right:0;
+	width:100px;
+	height:90px;
+	background:rgba(219,218,214,1);
+	float:left;
+	cursor:pointer;
+}
+
