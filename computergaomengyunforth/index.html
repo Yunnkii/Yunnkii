@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>计算器</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript"  src="js/style.js">
+	</script>
+</head>
+<body>
+	<div  class="container">
+		    <input type="text" value="0">
+			<ul>
+				<li>存储</li>
+				<li>取存</li>
+				<li class="tuige" onclick="del()">退格</li>
+				<li class="clearSc" onclick = "clearScreen()">清屏</li>
+				<li>累存</li>
+				<li>积存</li>
+				<li>清存</li>
+				<li id="chu" class="sign" onclick ="devide()">÷</li>
+				<li onclick="numget(7)">7</li>
+				<li onclick="numget(8)">8</li>
+				<li onclick="numget(9)">9</li>
+				<li id="cheng" class="sign" onclick = "cheng()">×</li>
+				<li onclick="numget(4)">4</li>
+				<li onclick="numget(5)">5</li>
+				<li onclick="numget(6)">6</li>
+				<li class="sign" onclick ="devide()">－</li>
+				<li onclick="numget(1)">1</li>
+				<li onclick="numget(2)">2</li>
+				<li onclick="numget(3)">3</li>
+				<li  class="sign" onclick = "plus()">＋</li>
+				<li onclick="numget(0)">0</li>
+				<li onclick="dot()">.</li>
+				<li>＋/－</li>
+				<li id="equal" onclick="equal()">=</li>
+			</ul>
+		
+	</div>
+</body>
+</html>
